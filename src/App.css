@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.header {
+  background-color: pink;
+
+  color: black;
+  width: 100vw;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 25px;
+  padding: 1rem;
+
+}
+p{
+  font-size: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+}
+
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2rem;
+}
+
+input {
+  width: 20rem;
+  margin: 0.2rem;
+  height: 30px;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0.2em;
+  padding: 0.5rem;
+}
+
+.display-cards {
+  border: 2px solid black;
+  margin: 0.1em;
+  padding: 0.1rem;
+
+}
+
+button {
+  cursor: pointer;
+  height: 30px;
+  border-radius: 5px;
+  width: 5rem;
+}
+
+button:hover {
+  border: none;
+  color: white;
+  background-color: black;
+
+}
+
+img{
+  width: 150px;
+  height: 150px;
+}
+
+h4{
+  font-size: 13px;
+  font-family:'Times New Roman', Times, serif ;
+  color: black;
+}
+.footer{
+  background-color: pink;
+  padding: 5px;
+}
+
+h3{
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  text-align: center;
+}
